@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap');
+
+
 .App {
-  text-align: center;
-  color: black;
 }
 
+/* original stuff */
 .App-logo {
   height: 40vmin;
 }
@@ -16,6 +18,16 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+/* things vicky added */
+.App-nameHeader {
+  text-align: center;
+  color: black;
+  font-family: 'Kaushan Script', cursive;
+  font-size: 3.5em;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 .App-banner1 {

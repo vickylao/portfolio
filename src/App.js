@@ -5,7 +5,9 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <h1>Vicky Lao</h1>
+      <div className="App-nameHeader">
+        Vicky Lao
+        </div>
       <div className="App-banner1"> </div>
       <div className="App-banner2">
         <div className="banner-orange"/>
