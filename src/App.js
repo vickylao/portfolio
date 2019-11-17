@@ -5,7 +5,12 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <h1>dude</h1>
+      <h1>Vicky Lao</h1>
+      <div className="App-banner1"> </div>
+      <div className="App-banner2">
+        <div className="banner-orange"/>
+        <div className="banner-yellow"/>
+         </div>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
