@@ -1,11 +1,12 @@
 import React from 'react';
 import './body.css';
+import portrait from './portrait.jpg'
 
 function Body() {
     return (
     <div>
-        <div className="Body-1">
-            <div className="Body-1-picture"/>
+        {/* <div className="Body-1"> */}
+            <img src={portrait} className="Body-1-picture" alt="portrait"/>
             <div className="Body-1-text">
                 A technology professional with 5+ years of progressive experience in professional services consulting Fortune 500 companies across a wide range of industries. Passionate about delivering high-impact, value-added initiatives to achieve organizations’ overall strategic goals. 
                 <p></p>
