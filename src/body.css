@@ -1,21 +1,55 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Nunito:600&display=swap');
 
-/* .Body-1 {
+.Body-1 {
+    display: grid;
+    grid-template-columns: auto minmax(auto, 300px) minmax(auto, 500px) auto;
+    grid-template-areas: " . portrait text . ";
     height: 300px;
-    display: flex;
-    flex-direction: row;
-} */
+    align-items: center;
+}
 
 .Body-1-picture {
-    align-items: center;
+    width: 15em;
+    height: 15em;
+    grid-area: portrait;
+    padding-top: 60px;
 } 
+
+.Body-title {
+    font-family: 'Nunito', sans-serif;
+    text-decoration: underline;
+    color: #3A7197;
+    font-size: 1.4em;
+}
 
 .Body-1-text {
     font-family: 'Roboto', sans-serif;
     font-size: 0.8em;
     color: #4E9ED4;
-    width: 100%;
+    grid-area: text;
     padding-top: 60px;
-    padding-left: 30px;
-    padding-right: 60px;
+    align-items: center;
+}
+
+.Body-2 {
+    height: 300px;
+    display: grid;
+    grid-template-columns: auto minmax(auto, 300px) minmax(auto, 500px) auto;
+    grid-template-areas: " . interests skills . ";
+    align-items: flex-start;
+}
+
+.Body-2-interests {
+    flex-direction: column;
+}
+
+.Body-2-interests-text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.8em;
+}
+
+.Body-2-interests-1 {
+    width: 3em;
+    height: 3em;
 }
