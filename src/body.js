@@ -2,6 +2,7 @@ import React from 'react';
 import './body.css';
 import portrait from './p_portrait.png'
 import snowboard from './p_snowboard.png'
+import friedchicken from './p_friedchicken.png'
 
 function Body() {
     return (
@@ -19,10 +20,12 @@ function Body() {
         <div className="Body-2">
             <div> </div>
             <div className="Body-2-interests">
-                <div className="Body-2-interests-text">
-                   I ALSO ENJOY 
-                </div>
-            <img src={snowboard} className="Body-2-interests-1" alt="snowboard"/>
+                <div className="Body-title">INTERESTS</div>
+            <img src={snowboard} className="Body-2-icons" alt="snowboard"/>
+            <div className="Body-2-interests-text"> Rolling down the mountain </div>
+            <div className="Body-2-interests-text"> on a very slippery board</div>
+            <img src={friedchicken} className="Body-2-icons" alt="friedchicken"/>
+            <div className="Body-2-interests-text"> Fried chicken lover</div>
             </div>
         </div>
     </div>

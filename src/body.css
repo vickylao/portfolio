@@ -7,6 +7,7 @@
     grid-template-areas: " . portrait text . ";
     height: 300px;
     align-items: center;
+    justify-items: center;
 }
 
 .Body-1-picture {
@@ -19,7 +20,7 @@
 .Body-title {
     font-family: 'Nunito', sans-serif;
     text-decoration: underline;
-    color: #3A7197;
+    color: #3A7197; 
     font-size: 1.4em;
 }
 
@@ -29,7 +30,6 @@
     color: #4E9ED4;
     grid-area: text;
     padding-top: 60px;
-    align-items: center;
 }
 
 .Body-2 {
@@ -41,15 +41,20 @@
 }
 
 .Body-2-interests {
+    padding-top: 20px;
+    display: grid;
     flex-direction: column;
+    justify-items: center;
+    font-size: 0.8em;
 }
 
 .Body-2-interests-text {
     font-family: 'Roboto', sans-serif;
-    font-size: 0.8em;
+    color: #4E9ED4;
 }
 
-.Body-2-interests-1 {
-    width: 3em;
-    height: 3em;
+.Body-2-icons {
+    padding-top: 13px;
+    width: 6em;
+    height: 6em;
 }
