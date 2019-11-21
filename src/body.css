@@ -52,6 +52,7 @@
 }
 
 .Body-2-interests-text {
+    padding-top: 1px;
     font-family: 'Roboto', sans-serif;
     color: #4E9ED4;
     font-size: 0.8em;
@@ -61,4 +62,22 @@
     padding-top: 13px;
     width: 4em;
     height: 4em;
+}
+
+.Body-2-skills {
+    display: flex;
+    flex-direction: column;
+}
+.Body-2-table{
+    display: flex;
+}
+
+.Body-2-table-skills{
+    flex: 10%;
+    border: thick double #C9BB36;
+}
+
+.Body-2-table-detail{
+    flex: 90%;
+    border-top: thin solid #C9BB36;
 }

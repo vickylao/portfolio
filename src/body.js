@@ -3,6 +3,7 @@ import './body.css';
 import portrait from './p_portrait.png'
 import snowboard from './p_snowboard.png'
 import friedchicken from './p_friedchicken.png'
+import globe from './p_travel.png'
 
 function Body() {
     return (
@@ -29,6 +30,15 @@ function Body() {
                     <div className="Body-2-interests-text"> on a very slippery board</div>
                     <img src={friedchicken} className="Body-2-icons" alt="friedchicken" />
                     <div className="Body-2-interests-text"> Fried chicken lover</div>
+                    <img src={globe} className="Body-2-icons" alt="globe" />
+                    <div className="Body-2-interests-text"> Travel and experience</div>
+                </div>
+                <div className="Body-2-skills">
+                    <div className="Body-title">SKILLS</div>
+                    <div className="Body-2-table">
+                        <div className="Body-2-table-skills">Programming</div>
+                        <div className="Body-2-table-detail">React</div>
+                    </div>
                 </div>
             </div>
         </div>
