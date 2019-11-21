@@ -10,9 +10,9 @@ function App() {
         </div>
       <div className="App-banner1"> </div>
       <div className="App-banner2">
-        <div className="banner-orange"/>
-        <div className="banner-yellow"/>
-         </div>
+        <div className="banner-orange" />
+        <div className="banner-yellow" />
+      </div>
       <Body></Body>
     </div>
   );

@@ -10,7 +10,7 @@ function Body() {
             <div className="Body-1">
                 <img src={portrait} className="Body-1-picture" alt="portrait" />
                 <div className="Body-1-text-section">
-                    <p/>
+                    <p />
                     <div className="Body-title">ABOUT</div>
                     <div className="Body-1-text">
                         <p></p>
