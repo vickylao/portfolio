@@ -36,12 +36,40 @@ function Body() {
                 <div className="Body-2-skills">
                     <div className="Body-title">SKILLS</div>
                     <div className="Body-2-table">
-                        <div className="Body-2-table-skills">Programming</div>
-                        <div className="Body-2-table-detail">React</div>
+                        <div className="Body-2-card">
+                            <div className="Body-2-cardtitle">programming</div>
+                            <div className="Body-2-cardtext">
+                                Experienced with the following languages and developed this site in:
+                                <br/>
+                                <br />
+                                react
+                                <br/>
+                                html
+                                <br/>
+                                css
+                            </div>
+                        </div>
+                        <div className="Body-2-card">
+                        <div className="Body-2-cardtitle">applications</div>
+                            <div className="Body-2-cardtext">
+                                System admin experience in:
+                                <br />
+                                SAP ECC, SAP GRC, ServiceNow, Archer, MetricStream
+                                <br/>
+                                Proficient in:
+                                <br/>
+                                Tableau, Qlik Sense, Power BI
+                                <br/>
+                                Microsoft Office Suite, G-Suite
+                            </div>
+                        </div>
+                        <div className="Body-2-card">
+                            hi
+                        </div>
+                    </div>
                     </div>
                 </div>
             </div>
-        </div>
     )
 }
 

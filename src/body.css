@@ -3,7 +3,7 @@
 
 .Body-1 {
     display: grid;
-    grid-template-columns: auto minmax(auto, 300px) minmax(auto, 500px) auto;
+    grid-template-columns: auto minmax(auto, 300px) minmax(auto, 600px) auto;
     grid-template-areas: " . portrait text . ";
     height: 300px;
     align-items: center;
@@ -39,7 +39,7 @@
 .Body-2 {
     height: 300px;
     display: grid;
-    grid-template-columns: auto minmax(auto, 300px) minmax(auto, 500px) auto;
+    grid-template-columns: auto minmax(auto, 300px) minmax(auto, 600px) auto;
     grid-template-areas: " . interests skills . ";
     align-items: flex-start;
 }
@@ -68,16 +68,39 @@
     display: flex;
     flex-direction: column;
 }
-.Body-2-table{
+.Body-2-table {
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
-.Body-2-table-skills{
-    flex: 10%;
-    border: thick double #C9BB36;
+.Body-2-card {
+    border: 0.3rem outset #C9BB36;
+    border-radius: 12px;
+    margin: 5px 10px 5px 0px;
+    height: 190px; 
+    width: 170px;
+    padding: 5px 5px 5px 5px;
+    display: flex;
+    flex-direction: column;
 }
 
-.Body-2-table-detail{
-    flex: 90%;
-    border-top: thin solid #C9BB36;
+.Body-2-cardtitle{
+    font-family: 'Nunito', sans-serif;
+    color: #3F5A6F;
+    font-size: 1.2em;
+    align-self: center;
+    text-decoration: bold;
 }
+
+.Body-2-cardtext {
+    font-family: 'Nunito', sans-serif;
+    font-size: 0.7em;
+    color: #3F5A6F;
+    display: flex;
+    flex-direction: column;
+    padding-top: 2px;
+}
+
+
+
