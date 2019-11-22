@@ -1,4 +1,5 @@
 import React from 'react';
+import Flippy, {FrontSide, BackSide} from 'react-flippy';
 import './body.css';
 import portrait from './p_portrait.png'
 import snowboard from './p_snowboard.png'
