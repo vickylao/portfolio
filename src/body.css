@@ -91,15 +91,22 @@
   font-size: 1.2em;
   align-self: center;
   text-decoration: bold;
+  text-align: left;
 }
 
 .Body-2-cardtext {
   font-family: "Nunito", sans-serif;
-  font-size: 0.7em;
+  font-size: 0.6em;
   color: #3f5a6f;
   display: flex;
   flex-direction: column;
   padding-top: 2px;
+  line-height: 10px;
+  font-style: italic;
+}
+
+.Body-2-carddetail {
+  font-style: normal;
 }
 
 .flippy-container {
@@ -111,13 +118,13 @@
 }
 
 .flippy-front {
-  background-color: #41669d;
+  background-color: white;
   border: 0.3rem outset #c9bb36;
   border-radius: 12px;
 }
 
 .flippy-back {
-  background-color: #175852;
-  border: 0.3rem outset #c9bb36;
+  background-color: #fefcf7;
+  border: 0.3rem outset #685454;
   border-radius: 12px;
 }

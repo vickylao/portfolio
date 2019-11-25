@@ -49,7 +49,26 @@ function Body() {
           <div className="Body-title">SKILLS</div>
           <div className="Body-2-table">
             <Card
-              front={<div>Albert is the best</div>}
+              front={
+                <div className="Body-2-cardtitle">
+                  programming
+                  <div className="Body-2-cardtext">
+                    Experienced with the following languages and developed this
+                    site in:
+                    <br />
+                    <br />
+                    <div className="Body-2-carddetail">
+                      react
+                      <br />
+                      javascript
+                      <br />
+                      html
+                      <br />
+                      css
+                    </div>
+                  </div>
+                </div>
+              }
               back={<div>vicky is ok</div>}
             />
             <div className="Body-2-card">
